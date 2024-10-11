@@ -1,0 +1,59 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+.Our-table{
+    width: 1140px;
+    background-color: rgb(236, 161, 49);
+    margin: auto;
+    text-align: center;
+}
+.Our-table>h2{
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding-top: 10px;
+    
+}
+table{
+    background-image: url(../image/img-02.jpg);
+    background-size: auto; 
+    background-repeat: no-repeat;  
+    width: 1140px;
+    height: 400px;
+    border-collapse: collapse;
+    text-align: center;
+}
+table td{
+    border: 3px solid rgb(255, 118, 6);
+    color: white;
+   
+}
+table td{
+    font-size: 16px;
+}
+table th{
+    background-color: rgb(241, 94, 9);
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+
+}
+table td:hover{
+    background: rgb(102, 26, 7);
+    cursor: pointer;
+    color: white;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(27, 26, 26);
+}
